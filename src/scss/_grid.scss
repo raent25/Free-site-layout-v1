@@ -1,0 +1,28 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_sb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    width: 90vw;
+}
+
+.head-row {
+    font-style: normal;
+    font-weight: 600;
+    font-size: $big;
+    line-height: 43px;
+}
+
+.box-head {
+    height: 55px;
+    width: 100vw;
+    padding-top: 100px;
+}

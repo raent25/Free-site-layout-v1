@@ -1,0 +1,44 @@
+.header-wrap {
+    width: 100vw;
+    height: 130px;
+    position: absolute;
+    z-index: 2;
+}
+
+.header {
+    width: 90vw;
+    height: 130px;
+    color: #fff;
+    text-transform: uppercase;
+    &__logo {
+        height: 30px;
+        width: 172px;
+        font-size: $midle;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: bold;
+        p {
+            padding-top: 5px;
+        }
+    }
+    &__nav {
+        width: 40vw;
+        a {
+            color: #fff;
+        }
+    }
+    &__leng {
+        display: none;
+    }
+}
+
+.button-logo {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: #fff;
+}

@@ -1,0 +1,48 @@
+.features {
+    height: 355px;
+    width: 350px;
+    position: relative;
+    &-row {
+        height: 660px;
+        width: 100vw;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    &__bg {
+        height: 250px;
+        width: 350px;
+        border-radius: 8px;
+    }
+    &-info {
+        position: absolute;
+        width: 230px;
+        height: 200px;
+        background-color: #fff;
+        border-radius: 8px;
+        transform: translateY(-95px) translateX(25px);
+        color: #101010;
+        flex-wrap: wrap;
+        padding-right: 32px;
+        padding-left: 32px;
+        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+        &__head {
+            font-style: normal;
+            font-weight: bold;
+            font-size: $midle;
+            line-height: 22px;
+            text-align: center;
+        }
+        &__text {
+            font-style: normal;
+            font-weight: normal;
+            font-size: $smole;
+            line-height: 150%;
+            text-align: center;
+        }
+        &__link {
+            a {
+                color: $pink;
+            }
+        }
+    }
+}

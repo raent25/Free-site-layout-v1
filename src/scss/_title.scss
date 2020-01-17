@@ -1,0 +1,58 @@
+.title-top {
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+    @include size();
+    z-index: 1;
+    position: absolute;
+}
+
+.title-under {
+    position: absolute;
+    z-index: 0;
+    background-image: url(/img/fon_title.jpg);
+    background-size: cover;
+    @include size();
+}
+
+.title-row {
+    z-index: 2;
+    position: relative;
+    @include size();
+}
+
+.title {
+    z-index: 2;
+    flex-wrap: wrap;
+    width: 65vw;
+    color: #fff;
+    &__heading {
+        text-transform: uppercase;
+        font-style: normal;
+        font-weight: bold;
+        font-size: $biger;
+        line-height: 86px;
+        letter-spacing: 0.05em;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: $midle-big;
+        line-height: 150%;
+        text-align: center;
+        &-margin {
+            padding-bottom: 30px;
+        }
+    }
+}
+
+.button-title {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 160px;
+    height: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $norm;
+    line-height: 17px;
+    color: $pink;
+    text-transform: uppercase;
+}

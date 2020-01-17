@@ -1,0 +1,51 @@
+.video-block-row {
+    width: 100vw;
+    height: 400px;
+}
+
+.video-block {
+    height: 400px;
+    width: 90vw;
+    align-items: flex-end;
+    &____screen {
+        width: 45vw;
+        height: 400px;
+        display: flex;
+        align-items: flex-end;
+    }
+    &__controler {
+        height: 65px;
+        width: 65px;
+        cursor: pointer;
+        background-color: $pink;
+        border-radius: 50%;
+        position: absolute;
+        transform: translateY(-180px) translateX(-35px);
+        z-index: 4;
+    }
+}
+
+.video-description {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 45vw;
+    height: 245px;
+    color: #000;
+    &__heading {
+        max-width: 445px;
+    }
+    &__text {
+        max-width: 445px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $norm;
+        line-height: 140%;
+        text-align: justify;
+    }
+    link {
+        padding-top: 30px;
+        a {
+            color: $pink;
+        }
+    }
+}
