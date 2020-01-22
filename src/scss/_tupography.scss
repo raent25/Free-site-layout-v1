@@ -5,3 +5,13 @@ a {
 html {
     overflow-x: hidden;
 }
+
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}

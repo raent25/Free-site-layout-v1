@@ -1,0 +1,30 @@
+.footer {
+    width: 100vw;
+    height: 435px;
+    background: #FAFAFA;
+    &-botton {
+        width: 90vw;
+        height: 20px;
+    }
+    &-lists {
+        min-height: 300px;
+        align-items: flex-start;
+    }
+    &-list {
+        max-width: 20vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        &__header {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 22px;
+            color: #101010;
+            padding-bottom: 30px;
+        }
+    }
+}
