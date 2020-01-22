@@ -1,6 +1,5 @@
 .app-row {
-    height: 500px;
-    width: 100vw;
+    @include size_standard();
     background-color: $pink;
 }
 

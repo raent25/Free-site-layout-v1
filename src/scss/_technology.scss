@@ -1,6 +1,5 @@
 .technology-row {
-    height: 500px;
-    width: 100vw;
+    @include size_standard();
     flex-wrap: wrap;
 }
 
