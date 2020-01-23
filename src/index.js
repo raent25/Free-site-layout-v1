@@ -1,4 +1,6 @@
 import './modules/header.component'
 import './modules/video_btn'
+import './modules/dropdown'
+import './modules/burger'
 import css from './css/index.css'
 import './scss/index.scss'

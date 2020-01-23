@@ -1,0 +1,80 @@
+@media screen and (max-width:1150px) {
+    // $biger: 55px;
+    .title__heading {
+        font-size: 55px;
+    }
+}
+
+@media screen and(max-width: 1079px) {
+    .header {
+        &__nav {
+            display: none;
+        }
+    }
+    .burger-menu {
+        &__button {
+            display: flex;
+        }
+    }
+    .features {
+        &-row {
+            height: 1000px;
+        }
+        &-block {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    #slider-wrapper {
+        width: 365px;
+        height: 255px;
+    }
+    .inner-wrapper {
+        width: 365px;
+        height: 255px;
+    }
+    .feedback {
+        width: 365px;
+        height: 255px;
+        &__name {
+            width: 180px;
+        }
+        &__rest {
+            width: 365px;
+        }
+    }
+}
+
+@media screen and(max-width: 1000px) {
+    #video {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media screen and(max-width: 900px) {
+    .title__heading {
+        font-size: 35px;
+    }
+    .app-description {
+        color: #000;
+        width: 45vw;
+        &-wrapper {
+            width: 40vw;
+        }
+    }
+    .footer-lists {
+        flex-wrap: wrap;
+    }
+    .footer-smole {
+        width: 50px;
+    }
+    .technology {
+        &-row {
+            height: 1000px;
+        }
+        &-block {
+            flex-wrap: wrap;
+        }
+    }
+}

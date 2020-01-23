@@ -16,14 +16,14 @@
     &__head {
         font-style: normal;
         font-weight: 600;
-        font-size: 36px;
+        font-size: $big;
         line-height: 43px;
         padding-bottom: 30px;
     }
     &__text {
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: $norm;
         line-height: 140%;
         text-align: justify;
     }
@@ -48,7 +48,6 @@
 
 //slider
 #slider-wrapper {
-    width: 445px;
     width: 530px;
     height: 310px;
     margin: 50px auto;

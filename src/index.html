@@ -22,10 +22,35 @@
                     <a href="#">CONTACT</a>
                     <a href="#">Sign up</a>
                 </div>
-                <div class="header__leng"></div>
+                <div class="header__leng">
+                    <div class="dropdown" id="dropdown">
+                        <div class="dropdown__label"></div>
+                        <div class="dropdown__text"></div>
+                        <div class="language-btn" id="language-btn"><img src="img/triangle.svg" class="language-btn__img" alt=""></div>
+                        <ul class="dropdown__menu"></ul>
+                    </div>
+
+                </div>
                 <button class="button-logo">
                     <p class="button-logo__text">login</p>
                 </button >
+
+                <div class="burger-menu">
+
+                    <a class="burger-menu__button" id="button">
+                        <span class="burger-menu__line">
+                    </span>
+                    </a>
+                    <nav class="burger-menu__nav">
+                        <a href="" class="burger-menu__link">link 1</a>
+                        <a href="" class="burger-menu__link">link 2</a>
+                        <a href="" class="burger-menu__link">link 3</a>
+                        <a href="" class="burger-menu__link">link 4</a>
+                        <a href="" class="burger-menu__link">link 5</a>
+                    </nav>
+                    <div class="burger-menu__overley" id="overley"></div>
+                </div>
+                
             </div>
         </div>
     </header>
@@ -60,7 +85,7 @@
 
                 
                 <div class="video-block__screen">
-                    <video width="400" height="300" id="video" controls="controls" poster="img/d.jpg">
+                    <video id="video" controls="controls" poster="img/d.jpg">
                         <source src="img/nokia.webm" type='video/webm; codecs="vp8, vorbis"'>
                         </video>
                         <div class="video-block__controler" id="video-btn"></div>
@@ -74,7 +99,7 @@
     <div class="box-head center">
         <div class="head-row"><p>Features</p></div>
     </div>
-<div class="content center_sb">
+<div class="features-block content center_sb">
     <div class="features">
         <div class="features__bg"><img src="img/bg1.png" alt=""></div>
         <div class="features-info center">
@@ -124,7 +149,7 @@
     <div class="box-head center">
         <div class="head-row"><p>Technology</p></div>
     </div>
-<div class="content center">
+<div class=" technology-block content center">
         <div class="technology-box center">
             <div class="technology-box__bgnum center">
                 <p>01</p>
@@ -292,6 +317,7 @@
                             </li>
                             <li><a href="tel:+1 844-721-7120">+1 844-721-7120</a></li>
                             <li>
+
                                 <img src="img/feather-facebook.svg" alt="">
                                 <img src="img/feather-linkedin.svg" alt="">
                                 <img src="img/feather-twitter.svg" alt="">
@@ -306,7 +332,7 @@
                                     <p>We Support</p>
                                 </div>
                             </li>
-                            <li><img src="img/secure-p.png" alt=""></li>
+                            <li><img class="footer-smole" src="img/secure-p.png" alt=""></li>
                         </ul>
 
                     </div>

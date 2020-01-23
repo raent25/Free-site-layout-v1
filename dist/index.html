@@ -22,10 +22,35 @@
                     <a href="#">CONTACT</a>
                     <a href="#">Sign up</a>
                 </div>
-                <div class="header__leng"></div>
+                <div class="header__leng">
+                    <div class="dropdown" id="dropdown">
+                        <div class="dropdown__label"></div>
+                        <div class="dropdown__text"></div>
+                        <div class="language-btn" id="language-btn"><img src="img/triangle.svg" class="language-btn__img" alt=""></div>
+                        <ul class="dropdown__menu"></ul>
+                    </div>
+
+                </div>
                 <button class="button-logo">
                     <p class="button-logo__text">login</p>
                 </button >
+
+                <div class="burger-menu">
+
+                    <a class="burger-menu__button" id="button">
+                        <span class="burger-menu__line">
+                    </span>
+                    </a>
+                    <nav class="burger-menu__nav">
+                        <a href="" class="burger-menu__link">link 1</a>
+                        <a href="" class="burger-menu__link">link 2</a>
+                        <a href="" class="burger-menu__link">link 3</a>
+                        <a href="" class="burger-menu__link">link 4</a>
+                        <a href="" class="burger-menu__link">link 5</a>
+                    </nav>
+                    <div class="burger-menu__overley" id="overley"></div>
+                </div>
+                
             </div>
         </div>
     </header>
@@ -207,10 +232,10 @@
                 <input type="radio" name="slide" class="control" id="Slide4" />
                 <label for="Slide4" id="s4"></label>
                 <div class="overflow-wrapper">
-                    <a class="slide" href=""><img src="img/sl1.jpg" /></a>
-                    <a class="slide" href=""><img src="img/sl2.jpg" /></a>
-                    <a class="slide" href=""><img src="img/sl3.jpg" /></a>
-                    <a class="slide" href=""><img src="img/sl4.jpg" /></a>
+                    <a class="slide" href=""><img class="slide" src="img/sl1.jpg" /></a>
+                    <a class="slide" href=""><img class="slide" src="img/sl2.jpg" /></a>
+                    <a class="slide" href=""><img class="slide" src="img/sl3.jpg" /></a>
+                    <a class="slide" href=""><img class="slide" src="img/sl4.jpg" /></a>
                 </div>
             </div>
             </div>
@@ -221,8 +246,101 @@
 
 
 <!-- app         END                       app -->
-    </main>
-        <footer></footer>
+
+
+<!-- content                           content -->
+<div class="contact-row center">
+    <div class="content center_sb">
+
+        <div class="app-description-wrapper">
+
+            <div class="app-description">
+                <div class="app-description__head">Contact</div>
+                <div class="app-description__text">Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</div>
+            </div>
+        </div>
+
+        <form action="" method="POST" class="feedback">
+            <input type="text" name="first_name" class="feedback__name feedback__input" id="" placeholder="First name">
+            <input type="text" name="last_mame" class="feedback__name feedback__input" id="" placeholder="Last name">
+            <input type="text" name="number" class="feedback__rest feedback__input" id="" placeholder="Phone Number">
+            <input type="text" name="select" class="feedback__rest feedback__input" id="" placeholder="Select Service">
+            <button type="submit" class="feedback__btn"><p>Submit Now</p></button>
+                </form>
+            </div>
+        </div>
+        <!-- content            END               content -->
+        </main>
+        <footer class="footer center">
+            <div class="content">
+                <div class="footer-lists center_sb">
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <div class="footer-list__header">
+                                    <p>Address</p>
+                                </div>
+                            </li>
+                            <li>
+                                <Address>Pipang Ltd, Griva Digeni,
+                            81-83 Jacovides Tower, 1st Floor
+                            1090 Picosia USA</Address>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <div class="footer-list">
+
+                        <ul>
+                            <li>
+                                <div class="footer-list__header">
+                                    <p>Services</p>
+                                </div>
+                            </li>
+                            <li>Overview</li>
+                            <li>Features</li>
+                            <li>Technology</li>
+                            <li>Terms & Conditions</li>
+                            <li>Privecy</li>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <div class="footer-list__header">
+                                    <p>Get in Touch</p>
+                                </div>
+                            </li>
+                            <li>
+                                <p>info@cloudbudget.com</p>
+                            </li>
+                            <li><a href="tel:+1 844-721-7120">+1 844-721-7120</a></li>
+                            <li>
+                                <img src="img/feather-facebook.svg" alt="">
+                                <img src="img/feather-linkedin.svg" alt="">
+                                <img src="img/feather-twitter.svg" alt="">
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="footer-list">
+                        <ul>
+                            <li>
+                                <div class="footer-list__header">
+                                    <p>We Support</p>
+                                </div>
+                            </li>
+                            <li><img src="img/secure-p.png" alt=""></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="footer-botton center_sb">
+                    <p>Copyright 2018 CloudBudget</p>
+                </div>
+            </div>
+        </footer>
         <script src="bundle.js"></script>
 <script type="text/javascript" src="bundle.js"></script></body>
 
