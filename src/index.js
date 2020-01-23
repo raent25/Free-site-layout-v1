@@ -1,4 +1,3 @@
-import './modules/header.component'
 import './modules/video_btn'
 import './modules/dropdown'
 import './modules/burger'

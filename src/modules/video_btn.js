@@ -1,9 +1,11 @@
-var $video = document.getElementsByTagName("video")[0]
+var $video = document.getElementById('video')
 var $play = document.getElementById('video-btn')
 $play.addEventListener('click', function() {
     if ($video.paused == true) {
-        $video.play();
+        console.log('test')
+        $video.play()
     } else {
-        $video.pause();
+        $video.pause()
+        console.log('test2')
     }
-});
+})

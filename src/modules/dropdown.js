@@ -15,9 +15,6 @@ class Dropdown {
             } else if (event.target.classList.contains('dropdown__li')) {
                 this.select(event.target.dataset.id)
             }
-            // else if (event.target.tagName.toLowerCase() === 'li') {
-            //     this.select(event.target.dataset.id)
-            // }
         })
 
 

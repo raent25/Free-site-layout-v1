@@ -12,11 +12,12 @@ body.burger-menu-active {
         width: 40px;
         border-radius: 50%;
         background-color: #0036FF;
-        display: none;
+        display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 30;
+        z-index: 1000;
         transform: rotate(180deg);
+        cursor: pointer;
         &.burger-menu-active {
             background-color: #fff;
         }
