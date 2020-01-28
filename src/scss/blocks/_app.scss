@@ -1,0 +1,13 @@
+.app {
+    &-page {
+        @include size_standard();
+        @include center();
+        background-color: $pink;
+    }
+    &-block {
+        @include center_sb();
+        width: 90vw;
+    }
+}
+
+//slider

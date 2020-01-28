@@ -1,5 +1,12 @@
-.contact-row {
-    @include size_standard();
+.contact {
+    &-page {
+        @include size_standard();
+        @include center();
+    }
+    &-wrap {
+        @include center_sb();
+        width: 90vw;
+    }
 }
 
 .feedback {
@@ -34,18 +41,19 @@
         width: 540px;
         height: 60px;
     }
-    &__btn {
-        width: 160px;
-        height: 50px;
-        background: #ED4C5C;
-        border: 1.5px solid #ED4C5C;
-        box-sizing: border-box;
-        border-radius: 6px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: $norm;
-        line-height: 17px;
-        text-transform: uppercase;
-        color: #FFFFFF;
-    }
+}
+
+.btn-pink {
+    width: 160px;
+    height: 50px;
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $norm;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }

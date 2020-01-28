@@ -25,14 +25,6 @@
             justify-content: center;
         }
     }
-    #slider-wrapper {
-        width: 365px;
-        height: 255px;
-    }
-    .inner-wrapper {
-        width: 365px;
-        height: 255px;
-    }
     .feedback {
         width: 365px;
         height: 255px;
@@ -56,7 +48,7 @@
     .title__heading {
         font-size: 35px;
     }
-    .app-description {
+    .description {
         color: #000;
         width: 45vw;
         &-wrapper {

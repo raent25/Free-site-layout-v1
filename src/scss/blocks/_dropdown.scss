@@ -1,0 +1,56 @@
+.dropdown {
+    position: relative;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    @include center_sb();
+    &.open .dropdown__menu {
+        display: block;
+        z-index: 1000;
+    }
+    &__label {
+        @include center();
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    &__menu {
+        list-style: none;
+        margin: 0;
+        margin-top: 30px;
+        padding: 0;
+        display: none;
+        border-radius: 5px;
+        position: absolute;
+        width: 85px;
+        top: 29px;
+        li {
+            @include center_sb();
+            padding: 2px;
+            &:hover {
+                background: rgba(0, 0, 0, .2);
+                cursor: pointer;
+                opacity: 1;
+            }
+        }
+    }
+    &__text {
+        @include center();
+        height: 50px;
+    }
+    &__img {
+        border-radius: 50%;
+    }
+}
+
+.language-btn {
+    height: 50px;
+    width: 20px;
+    @include center();
+    transition: all 0.5s ease-in;
+    &-transform {
+        transform: rotateX(180deg);
+        transition: all 0.5s ease-in;
+    }
+}

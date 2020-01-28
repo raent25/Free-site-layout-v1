@@ -1,25 +1,21 @@
 body.burger-menu-active {
+    position: fixed;
     overflow: hidden;
 }
 
-// .burger-menu {
-//     position: relative;
-// }
 .burger-menu {
     &__button {
         position: relative;
         height: 40px;
         width: 40px;
         border-radius: 50%;
-        background-color: #0036FF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        background-color: #fff;
+        @include center();
         z-index: 1000;
         transform: rotate(180deg);
         cursor: pointer;
         &.burger-menu-active {
-            background-color: #fff;
+            background-color: $red;
         }
     }
     &__line,
@@ -28,7 +24,7 @@ body.burger-menu-active {
         position: relative;
         width: 10px;
         height: 2px;
-        background-color: #fff;
+        background-color: $pink;
         border-radius: 30%;
         display: block;
         transition: top 0.2s linear 0.2s, transform 0.2s ease-in;
@@ -53,13 +49,13 @@ body.burger-menu-active {
         &::before {
             transform: rotate(45deg);
             top: 0;
-            background: rgba(0, 54, 255, 0.9);
+            background: #fff;
             transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
         }
         &::after {
             transform: rotate(-45deg);
             top: 0;
-            background: rgba(0, 54, 255, 0.9);
+            background: #fff;
             transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
         }
     }
@@ -71,7 +67,7 @@ body.burger-menu-active {
         display: flex;
         flex-flow: column;
         height: 100%;
-        background: rgba(0, 54, 255, 0.9);
+        background: $pink;
         overflow-y: auto;
         left: 150%;
         transition: all 0.5s;

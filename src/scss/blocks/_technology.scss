@@ -1,11 +1,19 @@
-.technology-row {
-    @include size_standard();
-    flex-wrap: wrap;
+.technology {
+    &-page {
+        @include size_standard();
+        flex-wrap: wrap;
+        @include center();
+    }
+    &-block {
+        @include center_sb();
+        width: 90vw;
+    }
 }
 
-.technology-box {
+.tech {
     width: 255px;
     height: 226px;
+    @include center();
     flex-wrap: wrap;
     align-items: flex-start;
     position: relative;
@@ -15,7 +23,7 @@
         font-weight: bold;
         font-size: 100px;
         line-height: 120px;
-        text-align: center;
+        @include center();
         color: rgba(16, 16, 16, 0.08);
         width: 117px;
         height: 120px;

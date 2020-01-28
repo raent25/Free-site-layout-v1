@@ -1,0 +1,33 @@
+.video {
+    &-page {
+        width: 100vw;
+        min-height: 400px;
+        @include center();
+    }
+    &-wrap {
+        @include center_sb();
+        width: 90vw;
+        min-height: 400px;
+    }
+}
+
+#video {
+    width: 400px;
+    height: 300px;
+}
+
+.video-block {
+    width: 45vw;
+    min-height: 400px;
+    @include center();
+    &__controler {
+        height: 65px;
+        width: 65px;
+        cursor: pointer;
+        background-color: $pink;
+        border-radius: 50%;
+        position: absolute;
+        transform: translateY(0px) translateX(-200px);
+        z-index: 4;
+    }
+}

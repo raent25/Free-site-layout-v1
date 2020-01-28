@@ -1,25 +1,28 @@
-.title-top {
-    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
-    @include size();
-    z-index: 1;
-    position: absolute;
-}
-
-.title-under {
-    position: absolute;
-    z-index: 0;
-    background-image: url(/img/fon_title.jpg);
-    background-size: cover;
-    @include size();
-}
-
-.title-row {
-    z-index: 2;
-    position: relative;
-    @include size();
+.header {
+    &-front {
+        background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%);
+        @include size();
+        z-index: 1;
+        position: absolute;
+    }
+    &-under {
+        position: absolute;
+        z-index: 0;
+        background-image: url(/img/fon_title.jpg);
+        background-size: cover;
+        @include size();
+    }
+    &-page {
+        z-index: 2;
+        position: relative;
+        @include size();
+        @include center();
+    }
 }
 
 .title {
+    @include center();
+    padding-top: 100px;
     z-index: 2;
     flex-wrap: wrap;
     width: 65vw;
@@ -38,13 +41,11 @@
         font-size: $midle-big;
         line-height: 150%;
         text-align: center;
-        &-margin {
-            padding-bottom: 30px;
-        }
+        padding-bottom: 30px;
     }
 }
 
-.button-title {
+.btn-white {
     background: #FFFFFF;
     border-radius: 6px;
     width: 160px;
@@ -55,4 +56,5 @@
     line-height: 17px;
     color: $pink;
     text-transform: uppercase;
+    @include center();
 }
