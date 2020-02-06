@@ -12,7 +12,7 @@
     <header>
         <div class="header-bar center">
             <div class="header">
-                <div class="logo"><img class="logo__img" src="img/logo.svg" alt="">
+                <div class="logo logo-header"><img class="logo__img" src="img/logo.svg" alt="">
                     <p class="logo__text">CloudBudget</p>
                 </div>
                 <div class="header__nav">
@@ -79,10 +79,10 @@
                     </div>
                 </div>  
                 <div class="video-block">
-                    <video id="video" controls="controls " poster="img/d.jpg ">
-                        <source src="img/nokia.webm " type='video/webm; codecs="vp8, vorbis "'>
+                    <video id="video" poster="img/d.jpg ">
+                        <source src="img/video.webm " type='video/webm; codecs="vp8, vorbis "'>
                         </video>
-                        <div class="video-block__controler " id="video-btn"></div>
+                        <div class="video-controler" id="video-btn"><img src="img/play.svg" class="video-controler__img" alt=""></div>
                 </div>
             </div>
         </div>
@@ -91,41 +91,41 @@
     <!-- Features                              Features -->
 <div class="features-page">
         <div class="head-row"><p class="head-row__text">Features</p></div>
-<div class="features-block">
-    <div class="features">
-        <div class="features__bg"><img src="img/bg1.png " alt=" "></div>
-        <div class="features-info">
-            <div class="features-info__head">
+<div class="features-wrap">
+    <div class="feature">
+        <div class="feature__bg"><img src="img/bg1.png " alt=" "></div>
+        <div class="feature-info">
+            <div class="feature-info__head">
                 <p>Supports All Currencies and Cards</p>
             </div>
-            <div class="features-info__text">
+            <div class="feature-info__text">
                 <p>We support all popular currencies and is fully customizable to add</p>
             </div>
-            <div class="features-info__link"><a href="#"> Read More</a></div>
+            <div class="feature-info__link"><a href="#"> Read More</a></div>
         </div>
     </div>
-    <div class="features ">
-        <div class="features__bg "><img src="img/bg2.png " alt=" "></div>
-        <div class="features-info center ">
-            <div class="features-info__head ">
+    <div class="feature">
+        <div class="feature__bg"><img src="img/bg2.png " alt=" "></div>
+        <div class="feature-info">
+            <div class="feature-info__head">
                 <p>Manage your expenses on the go</p>
             </div>
-            <div class="features-info__text ">
+            <div class="feature-info__text">
                 <p>You can access your account from anywhere in the world on any device</p>
             </div>
-            <div class="features-info__link "><a href=" "> Read More</a></div>
+            <div class="feature-info__link"><a href=" "> Read More</a></div>
         </div>
     </div>
-    <div class="features ">
-        <div class="features__bg "><img src="img/bg3.png " alt=" "></div>
-        <div class="features-info center ">
-            <div class="features-info__head ">
+    <div class="feature">
+        <div class="feature__bg"><img src="img/bg3.png " alt=" "></div>
+        <div class="feature-info">
+            <div class="feature-info__head">
                 <p>Cloud Budget Management Software</p>
             </div>
-            <div class="features-info__text ">
+            <div class="feature-info__text">
                 <p>Our software is made so you can access and manage your budget</p>
             </div>
-            <div class="features-info__link "><a href=" "> Read More</a></div>
+            <div class="feature-info__link"><a href=" "> Read More</a></div>
         </div>
     </div>
 </div>
@@ -197,12 +197,12 @@
 
 
 <div class="app-page">
-    <div class="app-block">
+    <div class="app-wrap">
         <div class="desc-wrap">
-        <div class="desc desc-white ">
-            <div class="desc__head "><p> Stay focused on saving money</p></div>
-            <div class="desc__text "><p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p></div>
-            <div class="desc__img ">
+        <div class="desc desc-white">
+            <div class="desc__head"><p> Stay focused on saving money</p></div>
+            <div class="desc__text"><p>It is important to stay focused on saving money in any way you can. We help you monitor your spending habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!</p></div>
+            <div class="desc__img">
                 <img src="img/ic1.svg " alt=" ">
                 <img src="img/ic2.svg " alt=" ">
                 <img src="img/ic3.svg " alt=" ">
@@ -210,11 +210,24 @@
         </div>
     </div>
     
-        <div class="slider ">
-            
-
-            
+    <div class="slider">
+        <div class="slider__wrapper">
+            <div class="slider__item">
+                <div class="img-slide img-1"></div>
+            </div>
+            <div class="slider__item">
+                <div class="img-slide img-2"></div>
+            </div>
+            <div class="slider__item">
+                <div class="img-slide img-3"></div>
+            </div>
+            <div class="slider__item">
+                <div class="img-slide img-4"></div>
+            </div>
         </div>
+        <a class="slider__control slider__control_left" href="#" role="button"></a>
+        <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+    </div>
     </div>
 </div>
 
@@ -249,8 +262,6 @@
         <footer class="footer">
             <div class="footer-wrap">
                 <div class="footer-lists">
-
-
                     <div class="list">
                         <ul>
                             <li>

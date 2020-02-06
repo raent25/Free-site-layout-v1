@@ -2,10 +2,10 @@ var $video = document.getElementById('video')
 var $play = document.getElementById('video-btn')
 $play.addEventListener('click', function() {
     if ($video.paused == true) {
-        console.log('test')
         $video.play()
+        $play.innerHTML = '<img src="img/pause.svg" class="video-controler__img" alt="">'
     } else {
         $video.pause()
-        console.log('test2')
+        $play.innerHTML = '<img src="img/play.svg" class="video-controler__img" alt="">'
     }
 })

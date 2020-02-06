@@ -1,72 +1,239 @@
-@media screen and (max-width:1150px) {
-    // $biger: 55px;
-    .title__heading {
-        font-size: 55px;
-    }
-}
-
-@media screen and(max-width: 1079px) {
-    .header {
-        &__nav {
-            display: none;
-        }
-    }
-    .burger-menu {
-        &__button {
-            display: flex;
-        }
-    }
-    .features {
-        &-row {
-            height: 1000px;
-        }
-        &-block {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    }
-    .feedback {
-        width: 365px;
-        height: 255px;
-        &__name {
-            width: 180px;
-        }
-        &__rest {
-            width: 365px;
-        }
-    }
-}
-
-@media screen and(max-width: 1000px) {
-    #video {
-        width: 300px;
-        height: 200px;
-    }
-}
-
-@media screen and(max-width: 900px) {
-    .title__heading {
-        font-size: 35px;
-    }
-    .description {
-        color: #000;
-        width: 45vw;
-        &-wrapper {
-            width: 40vw;
-        }
-    }
-    .footer-lists {
-        flex-wrap: wrap;
-    }
-    .footer-smole {
-        width: 50px;
-    }
-    .technology {
-        &-row {
-            height: 1000px;
-        }
-        &-block {
-            flex-wrap: wrap;
-        }
-    }
-}
+                    @media screen and (max-height:550px) {
+                        .burger-menu__link {
+                            padding: 10px;
+                        }
+                    }
+                    
+                    @media screen and (max-height:350px) {
+                        .burger-menu__link {
+                            font-size: $midle;
+                            padding: 5px;
+                        }
+                    }
+                    
+                    @media screen and (max-width:1150px) {
+                        // $biger: 55px;
+                        .title__heading {
+                            font-size: $midle-biger;
+                        }
+                    }
+                    
+                    @media screen and(max-width: 1140px) {
+                        .features {
+                            &-block {
+                                flex-wrap: wrap;
+                                justify-content: center;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 1079px) {
+                        .features {
+                            &-wrap {
+                                flex-wrap: wrap;
+                                justify-content: center;
+                            }
+                        }
+                        .feedback {
+                            width: 365px;
+                            height: 255px;
+                            &__name {
+                                width: 180px;
+                            }
+                            &__rest {
+                                width: 365px;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 1000px) {
+                        #video {
+                            width: 270px;
+                            height: 200px;
+                        }
+                        .video-controler {
+                            transform: translateY(0px) translateX(-135px);
+                        }
+                        .slider {
+                            max-width: 400px;
+                        }
+                        .img {
+                            &-slide {
+                                max-width: 400px;
+                                height: 250px;
+                                background-size: cover;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 925px) {
+                        .burger-menu {
+                            &__button {
+                                display: flex;
+                            }
+                        }
+                        .header__nav {
+                            display: none;
+                        }
+                    }
+                    
+                    @media screen and(max-width: 900px) {
+                        .title__heading {
+                            font-size: $big;
+                        }
+                        .footer-lists {
+                            flex-wrap: wrap;
+                        }
+                        .item-smole {
+                            width: 50px;
+                        }
+                        .technology {
+                            &-block {
+                                flex-wrap: wrap;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 850px) {
+                        .video-wrap,
+                        .app-wrap,
+                        .contact-wrap {
+                            flex-wrap: wrap;
+                            justify-content: center;
+                        }
+                        .desc {
+                            width: 100vw;
+                            &-wrap {
+                                width: 90vw;
+                                min-height: 200px;
+                                padding: 20px 0 20px 0;
+                            }
+                        }
+                        #video {
+                            width: 320px;
+                            height: 240px;
+                        }
+                        .video-controler {
+                            transform: translateY(0px) translateX(-160px);
+                        }
+                        .video-block {
+                            min-height: 250px;
+                        }
+                        .slider {
+                            max-width: 320px;
+                        }
+                        .img {
+                            &-slide {
+                                max-width: 320px;
+                                height: 185px;
+                                background-size: cover;
+                            }
+                        }
+                        .feedback {
+                            width: 320px;
+                            height: 255px;
+                            &__name {
+                                width: 155px;
+                            }
+                            &__rest {
+                                width: 320px;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 700px) {
+                        #video {
+                            width: 200px;
+                            height: 150px;
+                        }
+                        .video-controler {
+                            transform: translateY(0px) translateX(-100px);
+                        }
+                    }
+                    
+                    @media screen and(max-width: 649px) {
+                        .feedback {
+                            width: 250px;
+                            height: 255px;
+                            &__name {
+                                width: 123px;
+                            }
+                            &__rest {
+                                width: 250px;
+                            }
+                        }
+                        .slider {
+                            max-width: 250px;
+                        }
+                        .img {
+                            &-slide {
+                                max-width: 250px;
+                                height: 150px;
+                                background-size: cover;
+                            }
+                        }
+                        .burger-menu {
+                            &__nav.burger-menu-active {
+                                left: 25%;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 566px) {
+                        .technology {
+                            &-block {
+                                justify-content: center;
+                            }
+                        }
+                        .title__heading {
+                            font-size: $midle-big;
+                        }
+                        .list {
+                            max-width: 250px;
+                        }
+                    }
+                    
+                    @media screen and(max-width: 500px) {
+                        .btn-transparent {
+                            width: 70px;
+                        }
+                    }
+                    
+                    @media screen and(max-width: 430px) {
+                        .logo {
+                            width: 30px;
+                            &__text {
+                                display: none;
+                            }
+                        }
+                        .features-wrap {
+                            width: 100vw;
+                            @include center();
+                        }
+                        .burger-menu {
+                            &__nav.burger-menu-active {
+                                left: 0%;
+                            }
+                        }
+                    }
+                    
+                    @media screen and(max-width: 400px) {
+                        .title__heading {
+                            font-size: $midle;
+                        }
+                    }
+                    
+                    @media screen and(max-width:350px) {
+                        .feature {
+                            width: 300px;
+                            &__bg {
+                                width: 300px;
+                                img {
+                                    width: 300px;
+                                }
+                            }
+                            &-info {
+                                transform: translateY(-95px) translateX(3px);
+                            }
+                        }
+                    }

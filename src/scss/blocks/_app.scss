@@ -4,10 +4,8 @@
         @include center();
         background-color: $pink;
     }
-    &-block {
+    &-wrap {
         @include center_sb();
         width: 90vw;
     }
 }
-
-//slider

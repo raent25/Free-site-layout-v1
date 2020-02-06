@@ -9,25 +9,31 @@
         width: 90vw;
         min-height: 400px;
     }
+    &-block {
+        width: 44vw;
+        min-height: 400px;
+        @include center();
+    }
 }
 
 #video {
     width: 400px;
     height: 300px;
+    border: 1px solid #ccc;
 }
 
-.video-block {
-    width: 45vw;
-    min-height: 400px;
+.video-controler {
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+    background-color: $pink;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateY(0px) translateX(-200px);
+    z-index: 4;
     @include center();
-    &__controler {
+    &__img {
         height: 65px;
         width: 65px;
-        cursor: pointer;
-        background-color: $pink;
-        border-radius: 50%;
-        position: absolute;
-        transform: translateY(0px) translateX(-200px);
-        z-index: 4;
     }
 }

@@ -1,5 +1,6 @@
 import './modules/video_btn'
 import './modules/dropdown'
 import './modules/burger'
+import './modules/slider'
 import css from './css/index.css'
 import './scss/index.scss'

@@ -3,6 +3,7 @@
     height: 130px;
     color: #fff;
     text-transform: uppercase;
+    z-index: 500;
     @include center_sb();
     &-bar {
         width: 100vw;
@@ -16,6 +17,7 @@
         @include center_sb();
         a {
             color: #fff;
+            font-size: $norm;
         }
     }
 }
@@ -24,12 +26,14 @@
     height: 30px;
     width: 172px;
     font-size: $midle;
-    font-family: Lato;
     font-style: normal;
     font-weight: bold;
     @include center_sb();
     &__text {
         padding-top: 5px;
+    }
+    &-header {
+        z-index: 1100;
     }
 }
 

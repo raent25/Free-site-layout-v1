@@ -1,6 +1,6 @@
 .footer {
     width: 100vw;
-    height: 435px;
+    min-height: 435px;
     background: #FAFAFA;
     @include center();
     &-wrap {
@@ -10,6 +10,7 @@
         min-height: 300px;
         @include center_sb();
         align-items: flex-start;
+        flex-wrap: wrap;
     }
     &-botton {
         width: 90vw;
@@ -26,6 +27,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
+    a {
+        color: #101010;
+    }
     &__header {
         font-weight: bold;
         font-size: 18px;
