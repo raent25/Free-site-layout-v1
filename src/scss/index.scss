@@ -1,9 +1,9 @@
-@import "global/reset";
-@import "global/fonts";
-@import "global/variables";
-@import "global/mixins";
-@import "global/grid";
-@import "global/tupography";
+@import "reset";
+@import "fonts";
+@import "variables";
+@import "mixins";
+@import "grid";
+@import "tupography";
 @import "blocks/header";
 @import "blocks/dropdown";
 @import "blocks/burger";
@@ -15,4 +15,4 @@
 @import "blocks/slider";
 @import "blocks/contact";
 @import "blocks/footer";
-@import "global/adaptive";
+@import "adaptive";

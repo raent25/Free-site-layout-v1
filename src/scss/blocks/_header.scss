@@ -1,13 +1,13 @@
 .header {
     width: 90vw;
-    height: 180px;
+    height: 110px;
     color: #fff;
     text-transform: uppercase;
     z-index: 500;
     @include center_sb();
     &-bar {
         width: 100vw;
-        height: 180px;
+        height: 110px;
         position: absolute;
         z-index: 1000;
         @include center()
