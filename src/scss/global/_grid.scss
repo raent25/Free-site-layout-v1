@@ -1,0 +1,54 @@
+.head-row {
+    min-height: 55px;
+    width: 100vw;
+    @include center();
+    &__text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: $big;
+        line-height: 43px;
+    }
+}
+
+.desc {
+    color: #000;
+    width: 42vw;
+    &-wrap {
+        width: 42vw;
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    &__head {
+        font-style: normal;
+        font-weight: 600;
+        font-size: $big;
+        line-height: 43px;
+        padding-bottom: 30px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: $norm;
+        line-height: 140%;
+        text-align: justify;
+    }
+    &__img {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        img {
+            padding-right: 15px;
+        }
+    }
+    &__link {
+        padding-top: 30px;
+        a {
+            color: $pink;
+        }
+    }
+    &-white {
+        color: #fff;
+    }
+}
