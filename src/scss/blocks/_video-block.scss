@@ -6,30 +6,31 @@
     }
     &-wrap {
         @include center_sb();
-        width: 90vw;
+        width: $cont;
         min-height: 400px;
     }
     &-block {
-        width: 44vw;
+        width: 100%;
         min-height: 400px;
-        @include center();
+        padding-left: 18px;
+        @include center_sb();
     }
 }
 
 #video {
-    width: 400px;
-    height: 300px;
-    border: 1px solid #ccc;
+    width: 480px;
+    height: auto;
+    border-radius: 15px;
 }
 
 .video-controler {
-    height: 65px;
-    width: 65px;
+    height: 66px;
+    width: 66px;
     cursor: pointer;
     background-color: $pink;
     border-radius: 50%;
     position: absolute;
-    transform: translateY(0px) translateX(-200px);
+    transform: translateY(0px) translateX(-33px);
     z-index: 4;
     @include center();
     &__img {

@@ -1,19 +1,19 @@
 .header {
-    width: 90vw;
-    height: 110px;
+    width: $cont;
+    height: 114px;
     color: #fff;
     text-transform: uppercase;
     z-index: 500;
     @include center_sb();
     &-bar {
         width: 100vw;
-        height: 110px;
+        height: 114px;
         position: absolute;
         z-index: 1000;
         @include center()
     }
     &__nav {
-        width: 40vw;
+        width: 35vw;
         @include center_sb();
         a {
             color: #fff;

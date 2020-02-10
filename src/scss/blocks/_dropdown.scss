@@ -1,6 +1,6 @@
 .dropdown {
     position: relative;
-    width: 90px;
+    width: 100px;
     height: 50px;
     cursor: pointer;
     z-index: 1000;
@@ -38,6 +38,7 @@
     &__text {
         @include center();
         height: 50px;
+        padding-right: 6px;
     }
     &__img {
         border-radius: 50%;
