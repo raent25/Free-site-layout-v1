@@ -1,0 +1,68 @@
+@mixin font($font-size:$midle, $line-height:$midle, $font-weight:normal, $font-style:normal) {
+    font-family: $lato;
+    font-style: $font-style;
+    font-weight: $font-weight;
+    font-size: $font-size;
+    line-height: $line-height;
+}
+
+@mixin title {
+    font-family: $lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: $biger;
+    line-height: $lh-big;
+}
+
+@mixin midle-title {
+    font-family: $lato;
+    font-style: normal;
+    font-weight: $font-w600;
+    font-size: $midle-big;
+    line-height: 150%;
+}
+
+@mixin header-title {
+    font-family: $lato;
+    font-style: normal;
+    font-weight: $font-w600;
+    font-size: $big;
+    line-height: $lh-big_smole;
+}
+
+@mixin min-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: $midle;
+    line-height: $lh-midle;
+}
+
+@mixin standard {
+    font-size: $norm;
+    line-height: $smole;
+    font-family: $lato;
+    font-style: normal;
+    font-weight: normal;
+}
+
+@mixin text {
+    font-family: $lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $norm;
+    line-height: 140%;
+}
+
+@mixin smole {
+    font-family: $lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: $smole;
+    line-height: 150%;
+}
+
+@mixin ph-text {
+    font-family: $lato;
+    font-weight: normal;
+    font-size: $midle-smole;
+}

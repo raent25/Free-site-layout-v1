@@ -6,6 +6,6 @@
     }
     &-wrap {
         @include center_sb();
-        width: 90vw;
+        width: $cont;
     }
 }

@@ -8,7 +8,7 @@
         padding: 0;
     }
     &-wrap {
-        width: 90vw;
+        width: $cont;
         @include center_sb();
     }
 }
@@ -36,24 +36,18 @@
         box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
         @include center();
         &__head {
-            font-style: normal;
-            font-weight: bold;
-            font-size: $midle;
-            line-height: 22px;
+            @include min-title;
             text-align: center;
         }
         &__text {
             height: 32px;
-            font-style: normal;
-            font-weight: normal;
-            font-size: $smole;
-            line-height: 150%;
+            @include smole;
             text-align: center;
         }
         &__link {
             a {
                 color: $pink;
-                font-size: $smole;
+                @include smole;
             }
         }
     }

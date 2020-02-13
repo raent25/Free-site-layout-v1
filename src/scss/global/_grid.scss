@@ -3,10 +3,7 @@
     width: 100vw;
     @include center();
     &__text {
-        font-style: normal;
-        font-weight: 600;
-        font-size: $big;
-        line-height: 43px;
+        @include header-title;
     }
 }
 
@@ -21,18 +18,12 @@
         justify-content: flex-end;
     }
     &__head {
-        font-style: normal;
-        font-weight: 600;
-        font-size: $big;
-        line-height: 43px;
+        @include header-title;
         padding-bottom: 30px;
     }
     &__text {
         max-width: 445px;
-        font-style: normal;
-        font-weight: normal;
-        font-size: $norm;
-        line-height: 140%;
+        @include text;
         text-align: justify;
     }
     &__img {
@@ -47,7 +38,7 @@
         padding-top: 30px;
         a {
             color: $pink;
-            font-size: $norm;
+            @include text;
         }
     }
     &-white {

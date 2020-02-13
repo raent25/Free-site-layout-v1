@@ -8,10 +8,6 @@
     width: 100vw;
 }
 
-@mixin content() {
-    width: 90vw;
-}
-
 @mixin center() {
     display: flex;
     justify-content: center;

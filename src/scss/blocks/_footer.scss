@@ -4,7 +4,7 @@
     background: #FAFAFA;
     @include center();
     &-wrap {
-        width: 90vw;
+        width: $cont;
     }
     &-lists {
         min-height: 300px;
@@ -13,17 +13,14 @@
         flex-wrap: wrap;
     }
     &-botton {
-        width: 90vw;
+        width: $cont;
         height: 20px;
     }
 }
 
 .list {
     max-width: 20vw;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 150%;
+    @include smole;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -31,9 +28,7 @@
         color: #101010;
     }
     &__header {
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
+        @include min-title;
         color: #101010;
         padding-bottom: 30px;
         a {

@@ -23,13 +23,14 @@
         display: none;
         border-radius: 5px;
         position: absolute;
-        width: 85px;
+        width: 75px;
         top: 29px;
         li {
             @include center_sb();
             padding: 2px;
+            @include standard;
+            background-color: rgba(50, 50, 50, 0.7);
             &:hover {
-                background: rgba(0, 0, 0, .2);
                 cursor: pointer;
                 opacity: 1;
             }
@@ -38,9 +39,11 @@
     &__text {
         @include center();
         height: 50px;
+        @include standard;
         padding-right: 6px;
     }
     &__img {
+        height: 32px;
         border-radius: 50%;
     }
 }

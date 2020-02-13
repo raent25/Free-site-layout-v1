@@ -1,14 +1,5 @@
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
-div {
-    box-sizing: border-box;
-}
-
-//контейнер
-.conteiner {
-    overflow: hidden;
-}
-
 html,
 body,
 div,
@@ -501,4 +492,27 @@ textarea {
     background: #ccc;
     color: #000;
     padding: 0.2em 0;
+}
+
+// MY
+a {
+    text-decoration: none;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 62.2%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+//контейнер
+.conteiner {
+    overflow: hidden;
 }

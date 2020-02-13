@@ -17,7 +17,7 @@
         @include center_sb();
         a {
             color: #fff;
-            font-size: $norm;
+            @include font($norm, $lh-mid_smole)
         }
     }
 }
@@ -25,11 +25,10 @@
 .logo {
     height: 30px;
     width: 172px;
-    font-size: $midle;
-    font-style: normal;
-    font-weight: bold;
     @include center_sb();
     &__text {
+        text-transform: uppercase;
+        @include font($midle, $lh-midle, bold);
         padding-top: 5px;
     }
     &-header {
@@ -44,6 +43,7 @@
     box-sizing: border-box;
     border-radius: 6px;
     background-color: transparent;
+    @include standard;
     text-transform: uppercase;
     color: #fff;
 }

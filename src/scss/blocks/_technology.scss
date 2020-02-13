@@ -6,7 +6,7 @@
     }
     &-block {
         @include center_sb();
-        width: 90vw;
+        width: $cont;
     }
 }
 
@@ -34,18 +34,13 @@
     }
     &__head {
         width: 80%;
-        font-style: normal;
-        font-weight: bold;
-        font-size: $midle;
-        line-height: 22px;
+        @include midle-title;
         text-align: center;
     }
     &__text {
         width: 75%;
-        font-style: normal;
-        font-weight: normal;
-        font-size: $smole;
-        line-height: 14px;
+        @include smole;
+        line-height: $norm;
         text-align: center;
         padding-bottom: 30px;
     }

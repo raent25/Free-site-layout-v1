@@ -5,7 +5,7 @@
     }
     &-wrap {
         @include center_sb();
-        width: 90vw;
+        width: $cont;
     }
 }
 
@@ -23,15 +23,19 @@
         margin-bottom: 21px;
         &::-webkit-input-placeholder {
             padding-left: 20px;
+            @include ph-text;
         }
         &:-moz-placeholder {
             padding-left: 20px;
+            @include ph-text;
         }
         &::-moz-placeholder {
             padding-left: 20px;
+            @include ph-text;
         }
         &:-ms-input-placeholder {
             padding-left: 20px;
+            @include ph-text;
         }
     }
     &__name {
@@ -51,10 +55,8 @@
     border: 1.5px solid #ED4C5C;
     box-sizing: border-box;
     border-radius: 6px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: $norm;
-    line-height: 17px;
+    @include text;
+    line-height: 0;
     text-transform: uppercase;
     color: #FFFFFF;
 }
